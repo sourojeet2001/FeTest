@@ -1,0 +1,8 @@
+uuid: fd872c9c-fa80-420e-a0ee-4d98a5201265
+langcode: en
+status: true
+dependencies: {  }
+name: 'Team Acronym'
+vid: team_acronym
+description: ''
+weight: 0

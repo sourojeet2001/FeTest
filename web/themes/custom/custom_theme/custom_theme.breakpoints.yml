@@ -1,0 +1,21 @@
+custom_theme.mobile:
+  label: mobile
+  mediaQuery: '(min-width: 300px) and (max-width: 400px)'
+  weight: 0
+  multipliers:
+    - 1x
+    - 2x
+custom_theme.narrow:
+  label: narrow
+  mediaQuery: '(min-width: 560px) and (max-width: 850px)'
+  weight: 1
+  multipliers:
+    - 1x
+    - 2x
+custom_theme.wide:
+  label: wide
+  mediaQuery: '(min-width: 851px)'
+  weight: 2
+  multipliers:
+    - 1x
+    - 2x

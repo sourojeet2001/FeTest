@@ -1,0 +1,29 @@
+uuid: 57cc9b1f-6d44-4830-a4a8-43a7b181f527
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_team_code_name
+    - node.type.team_details
+    - taxonomy.vocabulary.team_acronym
+id: node.team_details.field_team_code_name
+field_name: field_team_code_name
+entity_type: node
+bundle: team_details
+label: 'Team Code Name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      team_acronym: team_acronym
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
