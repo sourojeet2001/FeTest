@@ -1,7 +1,8 @@
+/* Declares style for slick slider. */
 @use "../base/variables" as *;
 
 ul.slick-dots {
-  bottom: 202px;
+  bottom: 120px;
   max-width: 250px;
   padding: 0;
   right: 266px;
@@ -13,4 +14,7 @@ ul.slick-dots {
   padding: 3px 11px;
   background: $primary-color;
   z-index: 100;
+}
+.slick-dotted.slick-slider {
+  margin-bottom: 0px;
 }

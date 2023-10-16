@@ -1,3 +1,5 @@
+/* Declaring styles for slider buttons. */
+
 @use "../base/mixins" as *;
 
 .arrow-right {
@@ -13,4 +15,8 @@
 }
 .support {
   display: none;
+  width: 105px;
+  padding: 7px;
+  background: #7100fe;
+  border-radius: 50px;
 }

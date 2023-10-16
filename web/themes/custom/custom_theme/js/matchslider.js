@@ -1,3 +1,5 @@
+/** This is the base slider of the homepage. */
+
 (function ($, Drupal, once) {
   Drupal.behaviors.sliderBehaviour = {
     attach: function (context, settings) {

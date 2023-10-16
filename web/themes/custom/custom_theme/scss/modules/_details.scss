@@ -1,14 +1,17 @@
+/* Declaring styles for details section. */
+
 @use "../base/variables" as *;
 
 .details {
-  position: $position-absolute;
-  top: 220px;
+  position: absolute;
+  bottom: 70px;
   left: 62px;
-  color: $primary-color;
+  color: #fff;
   max-width: 50%;
 
   h1 {
     text-transform: uppercase;
+    font-weight: $font-weight-bold;
 
     a {
       text-decoration: none;
@@ -16,10 +19,11 @@
     }
   }
 
-  h2 {
+  h4 {
     text-transform: uppercase;
     margin-left: 20px;
     position: relative;
+    font-weight: $font-weight-bold;
 
     &::before {
       content: "";
@@ -27,8 +31,8 @@
       border: 4px solid red;
       border-radius: 50%;
       margin-right: 10px;
-      left: -13px;
-      top: 16px;
+      left: -16px;
+      top: 11px;
     }
   }
 
@@ -36,8 +40,13 @@
     color: $secondary-color;
     font-weight: $font-weight-bold;
   }
+  h5 {
+    color: $primary-color;
+  }
   
   p{
-    font-weight: 300;
+    margin-top: 12px;
+    font-weight: 500;
+    font-size: 20px;
   }
 }
