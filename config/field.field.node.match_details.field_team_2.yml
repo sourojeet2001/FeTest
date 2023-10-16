@@ -1,0 +1,29 @@
+uuid: 069bffc3-0ef8-4762-ac10-f8ad1542ad4c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_team_2
+    - node.type.match_details
+    - node.type.team_details
+id: node.match_details.field_team_2
+field_name: field_team_2
+entity_type: node
+bundle: match_details
+label: 'Team 2'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      team_details: team_details
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

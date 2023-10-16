@@ -1,0 +1,10 @@
+@use "./variables" as *;
+
+@mixin buttons {
+  position: $position-absolute;
+  bottom: 200px;
+  color: $primary-color;
+  font-size: 26px;
+  border: 1px solid;
+  padding: 0 7px;
+}

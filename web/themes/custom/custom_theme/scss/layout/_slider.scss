@@ -1,0 +1,16 @@
+@use "../base/variables" as *;
+
+ul.slick-dots {
+  bottom: 202px;
+  max-width: 250px;
+  padding: 0;
+  right: 266px;
+}
+.slick-dots li button::before {
+  content: "";
+  width: 30px;
+  height: 2px;
+  padding: 3px 11px;
+  background: $primary-color;
+  z-index: 100;
+}

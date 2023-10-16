@@ -1,0 +1,11 @@
+@use "../base/variables" as *;
+
+.icc-logo {
+  position: $position-absolute;
+  z-index: 10;
+  margin-top: 10px;
+  left: 62px;
+}
+.views-field-field-caraousel-image img {
+  filter: brightness(0.6);
+}

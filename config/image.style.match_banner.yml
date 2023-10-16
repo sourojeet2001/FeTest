@@ -1,0 +1,15 @@
+uuid: 1593a43b-6178-4720-8e36-a3a9ff4ee034
+langcode: en
+status: true
+dependencies: {  }
+name: match_banner
+label: 'Match Banner'
+effects:
+  d09dbc09-016b-41d8-ba1e-1921d5f227d1:
+    uuid: d09dbc09-016b-41d8-ba1e-1921d5f227d1
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 2600
+      height: 1300
+      anchor: center-center

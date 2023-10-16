@@ -1,0 +1,16 @@
+@use "../base/mixins" as *;
+
+.arrow-right {
+  content: "→";
+  right: 150px;
+  @include buttons;
+}
+.arrow-left {
+  content: "←";
+  right: 199px;
+  z-index: 100;
+  @include buttons;
+}
+.support {
+  display: none;
+}
